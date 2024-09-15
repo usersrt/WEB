@@ -1,0 +1,26 @@
+.Paginate{
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    font-size: 19px;
+    :global{
+        .disabled{
+            display: none;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            border: 1px solid orange;
+        }
+        .selected{
+            border: 3px solid rgb(194, 130, 11);
+            border-radius: 50%;
+        }
+    }
+}

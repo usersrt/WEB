@@ -1,0 +1,44 @@
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 200px;
+}
+
+
+.Error{
+    &__text{
+        color: black;
+        font-family: 'RobotoC';
+        font-weight: 300;
+        font-size: 55px;
+    }
+    &__span{
+        color: white;
+        font-family: 'RobotoC';
+        font-weight: 300;
+        font-size: 55px;
+        background-color: red;
+        padding: 20px;
+        border-radius: 25px;
+        &2{
+            color: red;
+            font-family: 'RobotoC';
+            font-weight: 300;
+            font-size: 55px;
+            text-transform: uppercase;
+        }
+    }
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    background-color: #fff;
+    height: 550px;
+    padding: 0 55px;
+    border-radius: 35px;
+}
