@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import s from "./Item.module.scss"
 import { getById } from "../../API/Api";
 import { useStr } from "../../store/ItemStore";
-import Swipe from "../../components/Swipe/Swipe";
 
 
 
@@ -25,7 +24,7 @@ const Item = () => {
     <>
         <div className={s.wrapper}>
             <div className={s.box}>
-                <Swipe img={singleItem}/>
+              <img src={singleItem.thumbnail} alt="" />
                 <p className={s.Item__title}>{singleItem.title}</p>
                 <p className={s.Item__description}>{singleItem.description}</p>
                 <div className={s.Item__block}>
