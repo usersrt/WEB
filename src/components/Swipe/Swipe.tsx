@@ -8,8 +8,6 @@ import { useStr } from '../../store/ItemStore';
 const Swipe = ({img}:any) => {
   
 
-  console.log(img);
-  
   
 
   return (
